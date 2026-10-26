@@ -89,7 +89,7 @@ export const HeartHeader: React.FC<HeartHeaderProps> = ({
             {/* Visual Glass Artwork representing the Heart and Door */}
             <div className="heart-artwork-wrapper">
               <img
-                src="/assets/heart-door.jpg"
+                src={`${import.meta.env.BASE_URL}assets/heart-door.jpg`}
                 alt="3D Translucent Liquid Glass Heart with Ornate Central Door"
                 className="heart-background-img"
               />

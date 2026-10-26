@@ -88,7 +88,7 @@ export const Scene2: React.FC<Scene2Props> = ({ recipientName }) => {
           >
             <div className="character-img-frame">
               <img
-                src="/assets/boy.jpg"
+                src={`${import.meta.env.BASE_URL}assets/boy.jpg`}
                 alt="Boy offering a gift with a warm gentle smile"
                 className="character-img"
                 loading="lazy"
@@ -116,7 +116,7 @@ export const Scene2: React.FC<Scene2Props> = ({ recipientName }) => {
             <div className="flower-glow-halo" aria-hidden="true" />
             <div className="flower-crystal-frame liquid-glass-card">
               <img
-                src="/assets/flower.jpg"
+                src={`${import.meta.env.BASE_URL}assets/flower.jpg`}
                 alt="3D Glowing Liquid Glass Romantic Rose"
                 className="flower-img"
                 loading="lazy"
@@ -146,7 +146,7 @@ export const Scene2: React.FC<Scene2Props> = ({ recipientName }) => {
           >
             <div className="character-img-frame">
               <img
-                src="/assets/girl.jpg"
+                src={`${import.meta.env.BASE_URL}assets/girl.jpg`}
                 alt="Girl with delighted blushing expression receiving the flower"
                 className="character-img"
                 loading="lazy"

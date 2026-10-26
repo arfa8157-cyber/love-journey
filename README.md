@@ -35,8 +35,8 @@ A production-ready, interactive romantic web application built with **React, Typ
 
 ### Section 3: Gift Messages
 - Vertically scrollable series of romantic letters and poetic reflections.
-- Purely data-driven from [`src/data/messages.ts`](file:///d:/love%20website/src/data/messages.ts).
-- Reusable [`MessageCard`](file:///d:/love%20website/src/components/MessageCard.tsx) component supporting both Arabic RTL and English LTR layouts, custom tags, dates, and subtle entrance animations.
+- Purely data-driven from [`src/data/messages.ts`](src/data/messages.ts).
+- Reusable [`MessageCard`](src/components/MessageCard.tsx) component supporting both Arabic RTL and English LTR layouts, custom tags, dates, and subtle entrance animations.
 
 ### Section 4: Final Declaration
 - Displays the exact phrase: **`"i love you"`** followed by the recipient's name (e.g. `"i love you Sarah"`).
@@ -53,7 +53,7 @@ A production-ready, interactive romantic web application built with **React, Typ
 ## 📁 Project Architecture
 
 ```
-d:/love website/
+love-website/
 ├── public/
 │   └── assets/
 │       ├── boy.jpg           # 3D romantic boy illustration
@@ -97,13 +97,14 @@ d:/love website/
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- Node.js (v18 or higher recommended)
+- Node.js `20.19+` or `22.12+`
 - npm, yarn, or pnpm
 
 ### 2. Installation
 ```bash
-cd "d:\love website"
-npm install
+git clone https://github.com/arfa8157-cyber/love-website.git
+cd love-website
+npm ci
 ```
 
 ### 3. Local Development
@@ -152,7 +153,7 @@ npm run preview
 
 ### Deployment Options
 - **Vercel / Netlify**: Connect the GitHub repository, set framework preset to `Vite`, build command to `npm run build`, and publish directory to `dist`.
-- **GitHub Pages**: Configure `base: './'` in `vite.config.ts` and deploy the `dist/` directory via GitHub Actions.
+- **GitHub Pages**: A workflow builds and deploys `dist/` whenever you push to `main`. In the repository, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**.
 
 ---
 

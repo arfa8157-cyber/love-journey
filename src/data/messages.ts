@@ -50,7 +50,7 @@ export const ROMANTIC_MESSAGES: RomanticMessage[] = [
 
 export const DEMO_CONFIG = {
   // Demo password clearly documented as required by specification
-  demoPassword: import.meta.env.VITE_DEMO_PASSWORD || '11/10/2007',
+  demoPassword: import.meta.env.VITE_DEMO_PASSWORD || '12345678',
   backupHint: '❤️❤️',
   arabicHeading: 'قمرين دول ولا عنيك',
   defaultRecipient: 'حبيبتي'
