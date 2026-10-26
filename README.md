@@ -182,3 +182,4 @@ npm run preview
 3. **Interactive Flower Petals**: 3D WebGL / Three.js particle canvas where glass flower petals float interactively with mouse cursor movement.
 4. **Photo Timeline**: Allow couples to upload and view an interactive liquid glass memory photo carousel.
 "# love-website" 
+"# love-journey" 
